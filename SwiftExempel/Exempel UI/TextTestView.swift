@@ -39,6 +39,8 @@ struct TextTestView: View {
         Text("Testa caption2")
             .font(.caption2)
         
+        Text("Testa färg")
+        
         
         
     }
