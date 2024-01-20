@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1B8D5972B5C198F006182A4 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8D5962B5C198F006182A4 /* MenuView.swift */; };
 		F1C88A852B582E6500EBC402 /* SwiftExempelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C88A842B582E6500EBC402 /* SwiftExempelApp.swift */; };
 		F1C88A872B582E6500EBC402 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C88A862B582E6500EBC402 /* ContentView.swift */; };
 		F1C88A892B582E6600EBC402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1C88A882B582E6600EBC402 /* Assets.xcassets */; };
@@ -17,9 +18,15 @@
 		F1C88A9A2B5869A100EBC402 /* TextTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C88A992B5869A100EBC402 /* TextTestView.swift */; };
 		F1C88A9C2B586C4D00EBC402 /* ShapesTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C88A9B2B586C4D00EBC402 /* ShapesTestView.swift */; };
 		F1C88A9E2B586C7500EBC402 /* ImagesTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C88A9D2B586C7500EBC402 /* ImagesTestView.swift */; };
+		F1C88AA02B58901300EBC402 /* ViewTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C88A9F2B58901300EBC402 /* ViewTestView.swift */; };
+		F1C88AA22B589FC300EBC402 /* ButtonTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1C88AA12B589FC300EBC402 /* ButtonTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F1B8D5962B5C198F006182A4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		F1B8D59A2B5C32EC006182A4 /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F1B8D59B2B5C3439006182A4 /* Variables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Variables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F1B8D59C2B5C3709006182A4 /* BasicTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BasicTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F1C88A812B582E6500EBC402 /* SwiftExempel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExempel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C88A842B582E6500EBC402 /* SwiftExempelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExempelApp.swift; sourceTree = "<group>"; };
 		F1C88A862B582E6500EBC402 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -31,6 +38,8 @@
 		F1C88A992B5869A100EBC402 /* TextTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextTestView.swift; sourceTree = "<group>"; };
 		F1C88A9B2B586C4D00EBC402 /* ShapesTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesTestView.swift; sourceTree = "<group>"; };
 		F1C88A9D2B586C7500EBC402 /* ImagesTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesTestView.swift; sourceTree = "<group>"; };
+		F1C88A9F2B58901300EBC402 /* ViewTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTestView.swift; sourceTree = "<group>"; };
+		F1C88AA12B589FC300EBC402 /* ButtonTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +78,12 @@
 				F1C88A962B58563D00EBC402 /* ViewsExempelView.swift */,
 				F1C88A922B58315700EBC402 /* VariablesConstantsView.swift */,
 				F1C88A942B583DA000EBC402 /* EmojisView.swift */,
+				F1B8D5962B5C198F006182A4 /* MenuView.swift */,
 				F1C88A882B582E6600EBC402 /* Assets.xcassets */,
+				F1B8D59A2B5C32EC006182A4 /* Operators.playground */,
 				F1C88A8A2B582E6600EBC402 /* Preview Content */,
+				F1B8D59B2B5C3439006182A4 /* Variables.playground */,
+				F1B8D59C2B5C3709006182A4 /* BasicTypes.playground */,
 			);
 			path = SwiftExempel;
 			sourceTree = "<group>";
@@ -89,6 +102,8 @@
 				F1C88A992B5869A100EBC402 /* TextTestView.swift */,
 				F1C88A9B2B586C4D00EBC402 /* ShapesTestView.swift */,
 				F1C88A9D2B586C7500EBC402 /* ImagesTestView.swift */,
+				F1C88A9F2B58901300EBC402 /* ViewTestView.swift */,
+				F1C88AA12B589FC300EBC402 /* ButtonTestView.swift */,
 			);
 			path = "Exempel UI";
 			sourceTree = "<group>";
@@ -163,11 +178,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1C88AA22B589FC300EBC402 /* ButtonTestView.swift in Sources */,
+				F1C88AA02B58901300EBC402 /* ViewTestView.swift in Sources */,
 				F1C88A9E2B586C7500EBC402 /* ImagesTestView.swift in Sources */,
 				F1C88A872B582E6500EBC402 /* ContentView.swift in Sources */,
 				F1C88A9C2B586C4D00EBC402 /* ShapesTestView.swift in Sources */,
 				F1C88A952B583DA000EBC402 /* EmojisView.swift in Sources */,
 				F1C88A972B58563D00EBC402 /* ViewsExempelView.swift in Sources */,
+				F1B8D5972B5C198F006182A4 /* MenuView.swift in Sources */,
 				F1C88A932B58315700EBC402 /* VariablesConstantsView.swift in Sources */,
 				F1C88A852B582E6500EBC402 /* SwiftExempelApp.swift in Sources */,
 				F1C88A9A2B5869A100EBC402 /* TextTestView.swift in Sources */,

@@ -1,15 +1,33 @@
-//
-//  MenuView.swift
 //  SwiftExempel
-//
+//  MenuView.swift
 //  Created by Hanna Christensson on 2024-01-20.
-//
+/*
+ 
+ */
 
 import SwiftUI
 
 struct MenuView: View {
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        Menu("Klicka här") {
+            
+            Button(("One")) {
+                
+            }
+            Button(("Two")) {
+                
+            }
+            Button(("Three")) {
+                
+            }
+            Button(("Four")) {
+                
+            }
+        }
+        
+        
     }
 }
 

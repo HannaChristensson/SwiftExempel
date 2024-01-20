@@ -21,6 +21,10 @@ struct TextTestView: View {
         
         Spacer()
         
+        Text(".trailing är till höger")
+            .frame(maxWidth: .infinity, alignment: .trailing)
+        Text(".leading är till vänster")
+            .frame(maxWidth: .infinity, alignment: .leading)
         
         Text("Testa largeTitle")
             .font(.largeTitle)
@@ -39,8 +43,17 @@ struct TextTestView: View {
         Text("Testa caption2")
             .font(.caption2)
         
-        Text("Testa färg")
-        
+        Text("Testa bakgrundsfärg")
+            .background(.yellow)
+        //Använd plus för lägga ihop text, med tex olika färg
+        Text("Colored ")
+                    .foregroundStyle(.red)
+                +
+                Text("SwifUI ")
+                    .foregroundStyle(.green)
+                +
+                Text("Text")
+                    .foregroundStyle(.blue)
         
         
     }

@@ -2,7 +2,6 @@
 //  VariablesConstantsView.swift
 //  Created by Hanna Christensson on 2024-01-17.
 
-
 /*
  Values are stored in two types of containers: var for variables and let for constants.
  Variables value can change. Constants value can not change.

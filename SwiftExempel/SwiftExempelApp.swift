@@ -1,9 +1,7 @@
-//
-//  SwiftExempelApp.swift
 //  SwiftExempel
-//
+//  SwiftExempelApp.swift
 //  Created by Hanna Christensson on 2024-01-17.
-//
+
 
 import SwiftUI
 
