@@ -33,6 +33,7 @@
 		F1B8D5A02B5CA06D006182A4 /* ObjectOrientedProgramming.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ObjectOrientedProgramming.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F1B8D5A12B5D7D19006182A4 /* Structs.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Structs.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F1B8D5A22B5D9676006182A4 /* Enums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enums.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F1B8D5A32B5D9EBD006182A4 /* Classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Classes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F1C88A812B582E6500EBC402 /* SwiftExempel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExempel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C88A842B582E6500EBC402 /* SwiftExempelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExempelApp.swift; sourceTree = "<group>"; };
 		F1C88A862B582E6500EBC402 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +97,7 @@
 				F1B8D5A02B5CA06D006182A4 /* ObjectOrientedProgramming.playground */,
 				F1B8D5A12B5D7D19006182A4 /* Structs.playground */,
 				F1B8D5A22B5D9676006182A4 /* Enums.playground */,
+				F1B8D5A32B5D9EBD006182A4 /* Classes.playground */,
 			);
 			path = SwiftExempel;
 			sourceTree = "<group>";
