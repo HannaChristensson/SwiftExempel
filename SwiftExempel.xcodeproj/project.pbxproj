@@ -29,6 +29,8 @@
 		F1B8D59C2B5C3709006182A4 /* BasicTypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = BasicTypes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F1B8D59D2B5C67EF006182A4 /* Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Functions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F1B8D59E2B5C826D006182A4 /* Optionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Optionals.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F1B8D59F2B5C9AF1006182A4 /* Tuples.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Tuples.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F1B8D5A02B5CA06D006182A4 /* ObjectOrientedProgramming.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ObjectOrientedProgramming.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F1C88A812B582E6500EBC402 /* SwiftExempel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExempel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C88A842B582E6500EBC402 /* SwiftExempelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExempelApp.swift; sourceTree = "<group>"; };
 		F1C88A862B582E6500EBC402 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +90,8 @@
 				F1B8D59C2B5C3709006182A4 /* BasicTypes.playground */,
 				F1B8D59D2B5C67EF006182A4 /* Functions.playground */,
 				F1B8D59E2B5C826D006182A4 /* Optionals.playground */,
+				F1B8D59F2B5C9AF1006182A4 /* Tuples.playground */,
+				F1B8D5A02B5CA06D006182A4 /* ObjectOrientedProgramming.playground */,
 			);
 			path = SwiftExempel;
 			sourceTree = "<group>";
