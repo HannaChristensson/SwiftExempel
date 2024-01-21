@@ -24,7 +24,8 @@ import Foundation     // Lektion nr 2
     let myFalseBool = false
 
 // Date
-let myFirstDate: Date = Date()  //Dagens datum och klockslag, skrivs ut amerikansk stil
+let myFirstDate: Date = Date()  // Dagens datum och klockslag, skrivs ut amerikansk stil
+let todaysDate: Date = .now     // Samma som ovan 
 
 // NUMBERS
 // Int är heltalsvärde/whole Integer
