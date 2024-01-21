@@ -24,10 +24,10 @@ import Foundation    // LEKTION NR 8
  Stack & Heap
  Only objects in the Heap are counted towards ARC.
  
- Objects in the Stack
- String, Bool, Int, most basic types, Structs, Enums
+ Objects in the STACK:
+ String, Bool, Int, most basic types, Structs, Enums, Array
  
- Objects in the Heap
+ Objects in the HEAP:
  Functions, Class, Actors
  
  iPhone is a "multi-threaded environment"

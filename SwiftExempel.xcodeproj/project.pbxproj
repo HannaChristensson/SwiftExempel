@@ -35,6 +35,7 @@
 		F1B8D5A22B5D9676006182A4 /* Enums.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Enums.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F1B8D5A32B5D9EBD006182A4 /* Classes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Classes.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F1B8D5A42B5DB5FE006182A4 /* AccessControl.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AccessControl.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		F1B8D5A52B5DC794006182A4 /* Arrays.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Arrays.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F1C88A812B582E6500EBC402 /* SwiftExempel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExempel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C88A842B582E6500EBC402 /* SwiftExempelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExempelApp.swift; sourceTree = "<group>"; };
 		F1C88A862B582E6500EBC402 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -89,8 +90,8 @@
 				F1B8D5962B5C198F006182A4 /* MenuView.swift */,
 				F1C88A882B582E6600EBC402 /* Assets.xcassets */,
 				F1C88A8A2B582E6600EBC402 /* Preview Content */,
-				F1B8D59B2B5C3439006182A4 /* Variables.playground */,
 				F1B8D59C2B5C3709006182A4 /* BasicTypes.playground */,
+				F1B8D59B2B5C3439006182A4 /* Variables.playground */,
 				F1B8D59A2B5C32EC006182A4 /* Operators.playground */,
 				F1B8D59D2B5C67EF006182A4 /* Functions.playground */,
 				F1B8D59E2B5C826D006182A4 /* Optionals.playground */,
@@ -100,6 +101,7 @@
 				F1B8D5A22B5D9676006182A4 /* Enums.playground */,
 				F1B8D5A32B5D9EBD006182A4 /* Classes.playground */,
 				F1B8D5A42B5DB5FE006182A4 /* AccessControl.playground */,
+				F1B8D5A52B5DC794006182A4 /* Arrays.playground */,
 			);
 			path = SwiftExempel;
 			sourceTree = "<group>";
