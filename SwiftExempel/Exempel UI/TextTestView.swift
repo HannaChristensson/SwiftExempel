@@ -13,7 +13,13 @@ struct TextTestView: View {
     var body: some View {
         
         Spacer()
-        Text("Hello, World!")
+        Text(".fontWeight(.black)")
+            .fontWeight(.black)
+        Text(".fontWeight(.light)")
+            .fontWeight(.light)
+        Text(".fontWeight(.regular")
+            .fontWeight(.regular)
+        
         Text(myName)
         Text(String(myAge))
         Text("🍷")

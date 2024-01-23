@@ -10,22 +10,27 @@ import SwiftUI
 struct MenuView: View {
     
     var body: some View {
-        
-        Menu("Klicka här") {
-            
-            Button(("One")) {
+        VStack {
+            Menu("Klicka här") {
                 
+                Button(("One")) {
+                    
+                }
+                Button(("Two")) {
+                    
+                }
+                Button(("Three")) {
+                    
+                }
+                Button(("Four")) {
+                    
+                }
             }
-            Button(("Two")) {
-                
-            }
-            Button(("Three")) {
-                
-            }
-            Button(("Four")) {
-                
-            }
+            .font(.system(size: 44, weight: .semibold, design: .serif))
+            .foregroundColor(.mint)
         }
+        
+        
         
         
     }
