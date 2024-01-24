@@ -7,11 +7,11 @@ import SwiftUI
 
 struct GradientBackground: View {
     
-    @State private var animateGradient: Bool = false
+    
     
     //var startColor = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)
     //var endColor = #colorLiteral(red: 0.7420857549, green: 0.2118167579, blue: 1, alpha: 1)
-    
+    @State private var animateGradient: Bool = false
     private let startColor: Color = .purple
     private let endColor: Color = .indigo
     

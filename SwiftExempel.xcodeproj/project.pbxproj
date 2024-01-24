@@ -16,6 +16,7 @@
 		F1024A0B2B60134300C51B24 /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1024A0A2B60134300C51B24 /* GradientBackground.swift */; };
 		F1024A0D2B602E7900C51B24 /* ZStackBackgroundColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1024A0C2B602E7900C51B24 /* ZStackBackgroundColor.swift */; };
 		F1024A1B2B605BB300C51B24 /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1024A1A2B605BB300C51B24 /* NavigationView.swift */; };
+		F1024A1D2B607A2200C51B24 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1024A1C2B607A2200C51B24 /* ListView.swift */; };
 		F1B8D5972B5C198F006182A4 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8D5962B5C198F006182A4 /* MenuView.swift */; };
 		F1B8D5AB2B5EDCD2006182A4 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1B8D5AA2B5EDCD2006182A4 /* Launch Screen.storyboard */; };
 		F1B8D5AE2B5EE6FF006182A4 /* TextTutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B8D5AD2B5EE6FF006182A4 /* TextTutorialView.swift */; };
@@ -49,6 +50,7 @@
 		F1024A0A2B60134300C51B24 /* GradientBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
 		F1024A0C2B602E7900C51B24 /* ZStackBackgroundColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackBackgroundColor.swift; sourceTree = "<group>"; };
 		F1024A1A2B605BB300C51B24 /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		F1024A1C2B607A2200C51B24 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		F1B8D5962B5C198F006182A4 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		F1B8D59A2B5C32EC006182A4 /* Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Operators.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F1B8D59B2B5C3439006182A4 /* Variables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Variables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -159,6 +161,7 @@
 				F10249EA2B5F2C6000C51B24 /* IconsTutorialView.swift */,
 				F1B8D5962B5C198F006182A4 /* MenuView.swift */,
 				F10249E32B5F1A3C00C51B24 /* BackgroundCustomImage.swift */,
+				F1024A1C2B607A2200C51B24 /* ListView.swift */,
 				F1C88A882B582E6600EBC402 /* Assets.xcassets */,
 				F1C88A8A2B582E6600EBC402 /* Preview Content */,
 				F1B8D59C2B5C3709006182A4 /* BasicTypes.playground */,
@@ -296,6 +299,7 @@
 				F1B8D5972B5C198F006182A4 /* MenuView.swift in Sources */,
 				F1C88A932B58315700EBC402 /* VariablesConstantsView.swift in Sources */,
 				F10249E02B5F0A9A00C51B24 /* GradientsTutorialView.swift in Sources */,
+				F1024A1D2B607A2200C51B24 /* ListView.swift in Sources */,
 				F1C88A852B582E6500EBC402 /* SwiftExempelApp.swift in Sources */,
 				F1C88A9A2B5869A100EBC402 /* TextTestView.swift in Sources */,
 				F1024A0D2B602E7900C51B24 /* ZStackBackgroundColor.swift in Sources */,
