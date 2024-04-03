@@ -12,6 +12,7 @@ struct AngularGradientView: View {
             gradient: Gradient(colors: [Color.red, Color.blue]),
             center: .topLeading,
             angle: .degrees(180 + 45))
+        .ignoresSafeArea()
     }
 }
 

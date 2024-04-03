@@ -13,6 +13,7 @@ struct BackgroundAndOverlay: View {
     
     var color1 = #colorLiteral(red: 0.5568627715, green: 0.3529411852, blue: 0.9686274529, alpha: 1)
     var color2 = #colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1)
+    var color3 = #colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 0.5)
     
     
     var body: some View {
@@ -21,15 +22,28 @@ struct BackgroundAndOverlay: View {
         
         Image(systemName: "heart.fill")
             .font(.system(size: 40))
+            .foregroundStyle(Color.white)
             .background(
                 Circle()
                     .fill(
                     LinearGradient(
-                        gradient: Gradient(colors: [color1, color2]),
+                        gradient: Gradient(colors: [Color(color1),Color(color2)]),
                         startPoint: .topLeading,
                         endPoint: .bottomTrailing)
                     )
                     .frame(width: 100, height: 100)
+                    .shadow(color: Color(color3), radius: 10, x: 0.0, y: 10)
+                    .overlay(
+                        Circle()
+                            .fill(Color.blue)
+                            .frame(width: 35, height: 35)
+                            .overlay(
+                                Text("5")
+                                    .font(.headline)
+                                    .foregroundStyle(.white)
+                            )
+                            .shadow(color: Color(color3), radius: 10, x: 5, y: 5)
+                        , alignment: .bottomTrailing)
             )
         
         Spacer()

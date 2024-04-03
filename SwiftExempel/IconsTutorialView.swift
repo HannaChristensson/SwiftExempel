@@ -16,13 +16,17 @@ struct IconsTutorialView: View {
    
     
     var body: some View {
-        
-        ZStack {
-            Image(systemName: "heart")
-                .font(.largeTitle)
-            Image(systemName: "heart.fill")
-                .font(.caption)
+        HStack {
+            ZStack {
+                Image(systemName: "heart")
+                    .font(.largeTitle)
+                Image(systemName: "heart.fill")
+                    .font(.caption)
+            }
+            Text("Made by Luz 🖤")
         }
+        
+        
         Image(systemName: "cloud")
             .foregroundColor(.blue)
         Image(systemName: "plusminus.circle")
